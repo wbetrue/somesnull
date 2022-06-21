@@ -9,4 +9,5 @@ or
 
 https://cdn.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json
 
-## 希望作者有时间出个教程或说明～～
+## 要是有个说明会更好
+希望作者有时间出个教程或说明～～
