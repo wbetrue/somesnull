@@ -8,3 +8,5 @@ https://raw.githubusercontent.com/wbetrue/somesnull/main/pd2.json
 or
 
 https://cdn.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json
+
+## 希望作者有时间出个教程或说明～～
