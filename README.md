@@ -4,3 +4,5 @@
 
 ## useUrl
 https://raw.githubusercontent.com/wbetrue/somesnull/main/pd2.json
+or
+https://cdn.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json
