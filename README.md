@@ -17,4 +17,4 @@ https://raw.githubusercontent.com/wbetrue/somesnull/main/simple.json
 ## 要是有个说明会更好
 希望作者有时间出个教程或说明～～
 
-最后，拿来看小说漫画也挻不错。
+最后，拿来看小说漫画也挻不错，也可以写几个新闻源～
