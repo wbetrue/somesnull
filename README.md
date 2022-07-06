@@ -9,5 +9,8 @@ or
 
 https://cdn.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json
 
+## 收集了示例源，以防丢失
+https://raw.githubusercontent.com/wbetrue/somesnull/main/simple.json
+
 ## 要是有个说明会更好
 希望作者有时间出个教程或说明～～
