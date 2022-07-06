@@ -9,6 +9,8 @@ or
 
 https://cdn.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json
 
+导入是在规则源那里+号导入
+
 ## 收集了示例源，以防丢失
 https://raw.githubusercontent.com/wbetrue/somesnull/main/simple.json
 
