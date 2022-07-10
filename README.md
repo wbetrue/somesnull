@@ -11,9 +11,10 @@ https://cdn.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json
 导入是在规则源那里+号导入
 
 ## 收集了示例源，以防丢失
-https://raw.githubusercontent.com/wbetrue/somesnull/main/simple.json
+- https://raw.githubusercontent.com/wbetrue/somesnull/main/simple.json
+- 示例源中有小说漫画音频各一个，可以看下规则结构，发现可以直接写JS，支持JSONPATH等……
 
 ## 要是有个说明会更好
-希望作者有时间出个教程或说明～～
+希望作者有时间出个教程或说明～～，看着还是有点吃力啊！
 
 最后，拿来看小说漫画也挻不错，也可以写几个新闻源～
