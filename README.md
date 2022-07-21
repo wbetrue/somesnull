@@ -6,7 +6,7 @@
 https://raw.fastgit.org/wbetrue/somesnull/main/pd2.json
 
 ### OR
-https://cdn.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json
+https://fastly.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json
 
 导入是在规则源那里+号导入
 
