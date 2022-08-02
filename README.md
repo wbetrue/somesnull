@@ -2,11 +2,11 @@
 经过分析发现其实已经做的很完善了，只是作者没说明，编写方法和几大主流规则差不多
 在百度上找了些网站做成了可导入的源，还不完善，简单的写了几个，复杂的还没研究懂～～
 
-## insertUrl
-https://raw.fastgit.org/wbetrue/somesnull/main/pd2.json
+## insertUrl 订阅
+https://fastly.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json
 
 ### OR
-https://fastly.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json
+https://raw.fastgit.org/wbetrue/somesnull/main/pd2.json
 
 导入是在规则源那里+号导入
 
