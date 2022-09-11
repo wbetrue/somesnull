@@ -7,8 +7,7 @@ https://fastly.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json
 
 ### 或者
 - https://raw.fastgit.org/wbetrue/somesnull/main/pd2.json
-这个多数是动漫
-导入是在规则源那里+号导入
+- 这个多数是动漫，导入是在规则源那里+号导入
 
 ### 收集了示例源，以防丢失
 - https://raw.fastgit.org/wbetrue/somesnull/main/simple.json
