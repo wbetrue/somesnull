@@ -4,10 +4,6 @@
 
 ## 订阅
 源建议导一个就行，多了有些会覆盖，如果覆盖，再导一次就行。源不在多，好用的三五个足以。
-```
-需要注意：如果是其它软件的源拿来用，可能会有不兼容的情况，最好放在最后导入该源，或定期导入保证最新可用。
-```
-
 - 推荐：https://fastly.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json
 
 ### 或者
@@ -18,6 +14,10 @@
 - https://raw.fastgit.org/wbetrue/somesnull/main/simple.json
 - 示例源中有小说漫画音频各一个，可以看下规则结构，发现可以直接写JS，支持JSONPATH等……
 
+## 其它应用的源
+```
+需要注意：如果是其它软件的源拿来用，可能会有不兼容的情况，最好放在最后导入该源，或定期导入保证最新可用。
+```
 ### 收集了ESO提供的源：失效的较多，仅参考
 - https://raw.fastgit.org/wbetrue/somesnull/main/eso_source_9_11.json
 
