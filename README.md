@@ -9,7 +9,7 @@
 
 ## 订阅（建议定期导入保证最新可用）
 源建议导一个就行，多了有些会覆盖，如果覆盖，再导一次就行。源不在多，好用的三五个足以。
-- 推荐：<https://cdn.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json>
+- 推荐：<https://fastly.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json>
 - 或者：<https://raw.fastgit.org/wbetrue/somesnull/main/pd2.json>
 > 多数是动漫源，导入在规则源那里+号导入
 
