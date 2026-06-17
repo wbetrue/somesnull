@@ -1,7 +1,6 @@
 # 好奇熊app规则源
-## 作者没说明怎么写规则，也没给源，只能自己摸索
-经过分析发现其实已经做的很完善了，只是作者没说明，编写方法和几大主流规则差不多
-在百度上找了些网站做成了可导入的源，还不完善，简单的写了几个，复杂的还没研究懂～～
+## 最近的更新很给力，有源说明了
+邀请规则编写维护人员一起维护一个精简高质的源。
 
 ```base
 有好资源可以推荐，优秀的可以免费制作规则。
@@ -10,7 +9,7 @@
 ## 订阅（建议定期导入保证最新可用）
 源建议导一个就行，多了有些会覆盖，如果覆盖，再导一次就行。源不在多，好用的三五个足以
 
-- 推荐1: <https://ghfast.top/raw.githubusercontent.com/wbetrue/somesnull/main/pd2.json>
+- 推荐1: <[https://ghfast.top](https://gh-proxy.org)/raw.githubusercontent.com/wbetrue/somesnull/main/pd2.json>
 - 推荐2：<https://fastly.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json>
 - 或者：<https://github.com/wbetrue/somesnull/raw/main/pd2.json>
 > 多数是动漫源，导入在规则源那里+号导入
