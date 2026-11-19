@@ -30,9 +30,9 @@
 
 | 线路 | 订阅地址 |
 |---|---|
-| 推荐 1 | <https://gh-proxy.org/raw.githubusercontent.com/wbetrue/somesnull/main/pd2.json> |
-| 推荐 2 | <https://fastly.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json> |
-| GitHub 原始地址 | <https://github.com/wbetrue/somesnull/raw/main/pd2.json> |
+| 推荐 1 | `https://gh-proxy.org/raw.githubusercontent.com/wbetrue/somesnull/main/pd2.json` |
+| 推荐 2 | `https://fastly.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json` |
+| GitHub 原始地址 | `https://github.com/wbetrue/somesnull/raw/main/pd2.json` |
 
 ### 本仓库全部文件
 
@@ -44,15 +44,15 @@
 
 `simple.json`（能直接写 JS、支持 JSONPath 等，可以看规则结构）
 
-- <https://gh-proxy.org/raw.githubusercontent.com/wbetrue/somesnull/main/simple.json>
-- <https://fastly.jsdelivr.net/gh/wbetrue/somesnull@main/simple.json>
-- <https://github.com/wbetrue/somesnull/raw/main/simple.json>
+- `https://gh-proxy.org/raw.githubusercontent.com/wbetrue/somesnull/main/simple.json`
+- `https://fastly.jsdelivr.net/gh/wbetrue/somesnull@main/simple.json`
+- `https://github.com/wbetrue/somesnull/raw/main/simple.json`
 
 `eso_source_9_11.json`（约 180 KB，网络不好时优先用镜像）
 
-- <https://gh-proxy.org/raw.githubusercontent.com/wbetrue/somesnull/main/eso_source_9_11.json>
-- <https://fastly.jsdelivr.net/gh/wbetrue/somesnull@main/eso_source_9_11.json>
-- <https://github.com/wbetrue/somesnull/raw/main/eso_source_9_11.json>
+- `https://gh-proxy.org/raw.githubusercontent.com/wbetrue/somesnull/main/eso_source_9_11.json`
+- `https://fastly.jsdelivr.net/gh/wbetrue/somesnull@main/eso_source_9_11.json`
+- `https://github.com/wbetrue/somesnull/raw/main/eso_source_9_11.json`
 
 > gh-proxy、jsDelivr 是第三方镜像，可能随时变化；jsDelivr 对分支有缓存，更新会有延迟。打不开就换一条，或用 GitHub 原始地址。
 
@@ -60,9 +60,9 @@
 
 | 用途 | 订阅地址 | 维护仓库 | 最近更新 |
 |---|---|---|---|
-| 规则库索引（18 条，自动拉取全部） | <https://raw.githubusercontent.com/Predidit/KazumiRules/main/index.json> | [Predidit/KazumiRules](https://github.com/Predidit/KazumiRules) | 2026-11-13 |
-| 单条规则示例（普通模式） | <https://raw.githubusercontent.com/Predidit/KazumiRules/main/AGE.json> | 同上 | 同上 |
-| 单条规则示例（API 模式） | <https://raw.githubusercontent.com/Predidit/KazumiRules/main/giriGiriLove.json> | 同上 | 同上 |
+| 规则库索引（18 条，自动拉取全部） | `https://raw.githubusercontent.com/Predidit/KazumiRules/main/index.json` | [Predidit/KazumiRules](https://github.com/Predidit/KazumiRules) | 2026-11-13 |
+| 单条规则示例（普通模式） | `https://raw.githubusercontent.com/Predidit/KazumiRules/main/AGE.json` | 同上 | 同上 |
+| 单条规则示例（API 模式） | `https://raw.githubusercontent.com/Predidit/KazumiRules/main/giriGiriLove.json` | 同上 | 同上 |
 
 ## 三、Animeko（动漫）
 
