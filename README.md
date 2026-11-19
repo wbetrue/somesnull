@@ -1,8 +1,12 @@
 # 好奇熊 app 规则源
 
 > 使用者/爱好者自发整理的规则源合集，**非任何软件的官方仓库**。
+>
 > 收录好奇熊**支持导入**的各种格式的源，并附上已核对过地址可访问、仍在维护的示例。
-> 最后核对：2026-11-19
+>
+> 最后核对（订阅地址可用性）：2026-11-19
+>
+> 📌 条目中的 `source update` 徽章由 shields.io 实时读取源仓库最后提交时间，会随源仓库更新自动变化；它反映的是源仓库活跃度，不代表本页的维护状态。
 
 ## 🚀 快速使用
 
@@ -11,44 +15,41 @@
 3. 按提示预览并确认导入。导入时会**自动识别格式**，不用自己选
 
 > 💡 想长期保持最新：粘贴后点 **加为订阅**，之后在「订阅源」里可 **立即同步**，或打开 **自动更新**。
-> 导入方式有三种：粘贴订阅网址 / 粘贴文本 / 选择本地文件。
-> 源不在多，好用的三五个足以。多个订阅里有同一条规则会互相覆盖，覆盖了再导一次就行。
+>
+> - 导入方式有三种：粘贴订阅网址 / 粘贴文本 / 选择本地文件。
+> - 源不在多，好用的三五个足以。多个订阅里有同一条规则会互相覆盖，覆盖了再导一次就行。
 
 ## 🧩 支持导入的格式一览
 
-| 格式 | 是什么 | 好奇熊怎么处理 | 示例 |
-|---|---|---|---|
-| **通用规则**（JSON / `fox://` / `eso://`） | 好奇熊的原生格式。`fox://作者:规则名@…` 是分享出来的压缩串，`eso://` 是兼容前缀 | 原样导入，支持漫画、小说、视频、音频四类 | [一、本仓库](#一本仓库通用规则) |
-| **Kazumi** | Kazumi 的动漫规则：单条规则文件、规则数组，或规则库的 `index.json` | 自动转成视频规则，`index.json` 会自动拉取其中全部规则。XPath 模式和 API 模式都能转；已弃用的规则会被跳过 | [二、Kazumi](#二kazumi动漫) |
-| **Animeko** | Animeko 的数据源订阅（`{schemaVersion, mediaSources[]}`） | 「网页选择器」类转成视频规则；JSON 接口类等其它类型会被跳过 | [三、Animeko](#三animeko动漫) |
-| **TVBox** | TVBox 的单仓 / 多仓订阅 | 苹果CMS 接口类站点转成视频规则，直播源可一并导入；Spider（jar/js/py）类站点不支持，会被跳过 | [四、TVBox](#四tvbox影视--直播) |
-| **ZY-Player** | 单个站点的 JSON，含 `api` 与 `name` | 自动识别并转成视频规则 | [五、ZY-Player](#五zy-player) |
+- **通用规则**（JSON / `fox://` / `eso://`）：好奇熊的原生格式。`fox://作者:规则名@…` 是分享出来的压缩串，`eso://` 是兼容前缀。原样导入，支持漫画、小说、视频、音频四类。见 [一、本仓库](#一本仓库通用规则)。
+- **Kazumi**：Kazumi 的动漫规则，支持单条规则文件、规则数组，或规则库的 `index.json`。好奇熊会自动转成视频规则，`index.json` 会自动拉取其中全部规则；XPath 模式和 API 模式都能转，已弃用的规则会被跳过。见 [二、Kazumi](#二kazumi动漫)。
+- **Animeko**：Animeko 的数据源订阅（`{schemaVersion, mediaSources[]}`）。「网页选择器」类转成视频规则，JSON 接口类等其它类型会被跳过。见 [三、Animeko](#三animeko动漫)。
+- **TVBox**：TVBox 的单仓 / 多仓订阅。苹果CMS 接口类站点转成视频规则，直播源可一并导入；Spider（jar/js/py）类站点不支持，会被跳过。见 [四、TVBox](#四tvbox影视--直播)。
+- **ZY-Player**：单个站点的 JSON（含 `api` 与 `name`），自动识别并转成视频规则。见 [五、ZY-Player](#五zy-player)。
 
 ## 一、本仓库（通用规则）
 
 ### ⭐ 推荐：视频规则，以动漫为主（38 条）
 
-| 线路 | 订阅地址 |
-|---|---|
-| 推荐 1 | `https://gh-proxy.org/raw.githubusercontent.com/wbetrue/somesnull/main/pd2.json` |
-| 推荐 2 | `https://fastly.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json` |
-| GitHub 原始地址 | `https://github.com/wbetrue/somesnull/raw/main/pd2.json` |
+订阅地址（任选一条）：
+
+- **推荐 1**：`https://gh-proxy.org/raw.githubusercontent.com/wbetrue/somesnull/main/pd2.json`
+- **推荐 2**：`https://fastly.jsdelivr.net/gh/wbetrue/somesnull@main/pd2.json`
+- **GitHub 原始地址**：`https://github.com/wbetrue/somesnull/raw/main/pd2.json`
 
 ### 本仓库全部文件
 
-| 文件 | 内容 | 数量 | 适合谁 |
-|---|---|---|---|
-| `pd2.json` | 视频规则，以动漫为主 | 38 | 日常使用，**首选** |
-| `simple.json` | 示例：漫画、小说、视频、音频各 1 条 | 4 | 想看规则怎么写的人 |
-| `eso_source_9_11.json` | 其它软件（eso）的历史规则：漫画 20 / 小说 62 / 视频 23 / 音频 8 | 113 | 仅供参考，**失效较多** |
+- `pd2.json` — 视频规则，以动漫为主；38 条；日常使用，**首选**
+- `simple.json` — 示例：漫画、小说、视频、音频各 1 条；4 条；想看规则怎么写的人
+- `eso_source_9_11.json` — 其它软件（eso）的历史规则：漫画 20 / 小说 62 / 视频 23 / 音频 8；113 条；仅供参考，**失效较多**
 
-`simple.json`（能直接写 JS、支持 JSONPath 等，可以看规则结构）
+`simple.json`（能直接写 JS、支持 JSONPath 等，可以看规则结构）：
 
 - `https://gh-proxy.org/raw.githubusercontent.com/wbetrue/somesnull/main/simple.json`
 - `https://fastly.jsdelivr.net/gh/wbetrue/somesnull@main/simple.json`
 - `https://github.com/wbetrue/somesnull/raw/main/simple.json`
 
-`eso_source_9_11.json`（约 180 KB，网络不好时优先用镜像）
+`eso_source_9_11.json`（约 180 KB，网络不好时优先用镜像）：
 
 - `https://gh-proxy.org/raw.githubusercontent.com/wbetrue/somesnull/main/eso_source_9_11.json`
 - `https://fastly.jsdelivr.net/gh/wbetrue/somesnull@main/eso_source_9_11.json`
@@ -58,17 +59,21 @@
 
 ## 二、Kazumi（动漫）
 
-| 用途 | 订阅地址 | 维护仓库 | 最近更新 |
-|---|---|---|---|
-| 规则库索引（18 条，自动拉取全部） | `https://raw.githubusercontent.com/Predidit/KazumiRules/main/index.json` | [Predidit/KazumiRules](https://github.com/Predidit/KazumiRules) | 2026-11-13 |
-| 单条规则示例（普通模式） | `https://raw.githubusercontent.com/Predidit/KazumiRules/main/AGE.json` | 同上 | 同上 |
-| 单条规则示例（API 模式） | `https://raw.githubusercontent.com/Predidit/KazumiRules/main/giriGiriLove.json` | 同上 | 同上 |
+源仓库：[Predidit/KazumiRules](https://github.com/Predidit/KazumiRules) ![source update](https://img.shields.io/github/last-commit/Predidit/KazumiRules?label=source%20update)
+
+- **规则库索引**（18 条，自动拉取全部）
+  - 订阅：`https://raw.githubusercontent.com/Predidit/KazumiRules/main/index.json`
+- **单条规则示例（普通模式）**
+  - 订阅：`https://raw.githubusercontent.com/Predidit/KazumiRules/main/AGE.json`
+- **单条规则示例（API 模式）**
+  - 订阅：`https://raw.githubusercontent.com/Predidit/KazumiRules/main/giriGiriLove.json`
 
 ## 三、Animeko（动漫）
 
-| 用途 | 订阅地址 | 维护仓库 | 最近更新 |
-|---|---|---|---|
-| 官方订阅：网页选择器类数据源 | `https://sub.creamycake.org/v1/css1.json` | [open-ani/animeko](https://github.com/open-ani/animeko) | 2026-11-18 |
+源仓库：[open-ani/animeko](https://github.com/open-ani/animeko) ![source update](https://img.shields.io/github/last-commit/open-ani/animeko?label=source%20update)
+
+- **官方订阅：网页选择器类数据源**
+  - 订阅：`https://sub.creamycake.org/v1/css1.json`
 
 - 该订阅共 21 个数据源：20 个网页选择器类可导入，1 个 JSON 接口类会被跳过。
 - 订阅里含少量成人向数据源，导入后可以在规则管理里删除。
@@ -76,13 +81,16 @@
 
 ## 四、TVBox（影视 + 直播）
 
-| 类型 | 订阅地址 | 维护仓库 | 里面有什么 | 最近更新 |
-|---|---|---|---|---|
-| 单仓 | `https://raw.githubusercontent.com/1771245847/TvBox/master/tvbox.json` | [1771245847/TvBox](https://github.com/1771245847/TvBox) | 站点 16 个，其中苹果CMS 接口站 9 个可导入，其余 Spider 类被跳过；直播 1 路 | 2026-11-16 |
-| 多仓 | `https://raw.githubusercontent.com/1771245847/TvBox/master/tvbox.txt` | 同上 | 3 条子线路，其中 2 条是第三方动态地址，是否可用以导入预览为准 | 同上 |
-| 单仓（直播为主） | `https://raw.githubusercontent.com/fswws/tvbox-source/main/tvbox.json` | [fswws/tvbox-source](https://github.com/fswws/tvbox-source) | 站点 9 个，其中苹果CMS 接口站 1 个；直播 25 路。每日自动更新 | 2026-11-17 |
-| 仅直播 | `https://raw.githubusercontent.com/fswws/tvbox-source/main/live.json` | 同上 | 只有直播源，10 路 | 同上 |
-| 大体量单仓 | `https://raw.githubusercontent.com/qist/tvbox/master/jsm.json` | [qist/tvbox](https://github.com/qist/tvbox) | 站点 163 个，其中苹果CMS 接口站约 15 个可导入，其余是 Spider 类；直播 3 路 | 2026-11-19 |
+按维护仓库分组（`source update` 徽章显示各仓库最后提交时间）：
+
+- **[1771245847/TvBox](https://github.com/1771245847/TvBox)** ![source update](https://img.shields.io/github/last-commit/1771245847/TvBox?label=source%20update)
+  - **单仓**：`https://raw.githubusercontent.com/1771245847/TvBox/master/tvbox.json` — 站点 16 个，其中苹果CMS 接口站 9 个可导入，其余 Spider 类被跳过；直播 1 路
+  - **多仓**：`https://raw.githubusercontent.com/1771245847/TvBox/master/tvbox.txt` — 3 条子线路，其中 2 条是第三方动态地址，是否可用以导入预览为准
+- **[fswws/tvbox-source](https://github.com/fswws/tvbox-source)** ![source update](https://img.shields.io/github/last-commit/fswws/tvbox-source?label=source%20update)
+  - **单仓（直播为主）**：`https://raw.githubusercontent.com/fswws/tvbox-source/main/tvbox.json` — 站点 9 个，其中苹果CMS 接口站 1 个；直播 25 路。每日自动更新
+  - **仅直播**：`https://raw.githubusercontent.com/fswws/tvbox-source/main/live.json` — 只有直播源，10 路
+- **[qist/tvbox](https://github.com/qist/tvbox)** ![source update](https://img.shields.io/github/last-commit/qist/tvbox?label=source%20update)
+  - **大体量单仓**：`https://raw.githubusercontent.com/qist/tvbox/master/jsm.json` — 站点 163 个，其中苹果CMS 接口站约 15 个可导入，其余是 Spider 类；直播 3 路
 
 - `fswws/tvbox-source` 的 jsDelivr 备用地址：`https://fastly.jsdelivr.net/gh/fswws/tvbox-source@main/tvbox.json`
 - TVBox 的配置里**大量是 Spider（jar / js / py）类站点**，好奇熊不支持，导入时会被跳过并在预览里写明原因，这是正常现象。所以「站点总数」不等于「能导入的数量」。
@@ -97,6 +105,7 @@
 ```
 
 > ⚠️ ZY-Player 的「一键配置」整包（外层带 `sites`、`iptv`、`analyzes`）暂不支持识别，导入会提示「未识别」。需要的话，请把里面的站点拆成单个站点或数组再导入。
+>
 > 这类资源站接口老化很快，本页不收录整包列表；想要稳定的苹果CMS 接口站，建议直接用上面 TVBox 的单仓订阅。
 
 ## ❓ 常见问题
